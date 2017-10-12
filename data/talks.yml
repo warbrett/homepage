@@ -1,0 +1,7 @@
+name: Talks
+source:
+  - icon: fa fa-globe
+    url: https://warbrett.github.io/node-addon-talk/#/
+    title: Crossing the Language Barrier With Node Native Addons
+    description: Slides from my introduction to Node Native Addons talk given at PDXnode
+

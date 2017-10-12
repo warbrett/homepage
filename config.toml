@@ -1,0 +1,38 @@
+baseurl = "https://brettw.com/"
+languageCode = "en-US"
+title = "Brett Warner"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "Brett Warner"
+  description = "Software consulting and development."
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "warbrett"
+  Email         = "brett@spindevelopment.com"
+  Twitter       = "brett_warner"
+  LinkedIn      = "warbrett"
+
+## Main Menu
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "talks"
+  identifier = "talks"
+  weight = 300
+  url = "/talks/"

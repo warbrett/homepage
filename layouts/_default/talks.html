@@ -1,0 +1,15 @@
+<section id="talks">
+  <div class="container">
+    <h3>{{ .Site.Data.projects.name }} Talks</h3>
+    <div class="panel panel-default">
+      <div class="panel-body">
+      {{ range $i, $el := .Site.Data.talks.source }}
+        <h5>
+          <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+          <strong><a href="#">Project {{ add $i 1 }}</a></strong>&nbsp;-&nbsp;{{ $el.description }}
+        </h5>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
