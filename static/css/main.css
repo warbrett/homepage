@@ -119,6 +119,22 @@ a {
   line-height: 30px;
   font-size: 18px;
 }
+.project {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.project-tech {
+  font-size: 12px;
+  font-weight: 600;
+}
+.talk {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
 .panel-default h6 {
   font-size: 15px;
 }

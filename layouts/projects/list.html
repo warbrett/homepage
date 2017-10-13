@@ -7,18 +7,27 @@
           <h3>{{ .Site.Data.projects.name }}</h3>
           <div class="panel panel-default">
             <div class="panel-body">
-              {{ range $i, $el := .Site.Data.projects.source }}
-              <h5>
-                <i class="{{ .icon }}"></i>&nbsp;&nbsp;
-                <strong><a href="{{ $el.url }}">{{ $el.title }}</a></strong>&nbsp;-&nbsp;{{ $el.description }}
-              </h5>
+              {{ range .Site.Data.projects.source }}
+              <div class="project">
+                <div class="project-title">
+                  <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+                  <strong>
+                    {{ if .url }}
+                      <a href="{{ .url }}">{{ .title }}</a>
+                    {{ else }}
+                      {{ .title }}
+                    {{ end }}
+                  </strong>
+                </div>
+                <div class="project-description">{{ .description }}</div>
+                <div class="project-tech">Built with: {{ .tech }}</div>
+              </div>
               {{ end }}
             </div>
           </div>
         </div>
       </section>
     </div>
-
     <!-- Footer -->
     {{ partial "footer" . }}
   </body>

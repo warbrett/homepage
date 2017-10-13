@@ -1,27 +1,31 @@
 name: Notable Projects & Packages
 source:
   - icon: fa fa-globe
-    url:
     title: ECF Helper
-    description: A full application that takes emails directly from Pacer. Downloads the free look automatically, then adds any necessary court dates to an attorney's calendar along with a link that allows infinite free views.
+    tech: JavaScript/Node.js, Hapi, React/Redux, Postgres, Cronofy
+    description: A full application that takes emails directly from Pacer. Downloads the free look automatically, then adds any necessary court dates to an attorney's calendar along with a link that allows infinite free views. Source code available upon request.
 
   - icon: fa fa-github
     url: https://github.com/warbrett/better-softphone
     title: Better Softphone
-    description: A PWA VOIP softphone that allows outbound calls from multiple numbers and works on both mobile and desktop browsers.
+    tech: JavaScript/Node.js, Hapi, React/Redux, Postgres
+    description: A VOIP softphone built as a Progressive Web Application. Currently allows outbound calls from multiple numbers and works on both mobile and desktop browsers. Text messaging and call logs coming soon!
 
   - icon: fa fa-globe
     url: https://www.npmjs.com/package/cronofy
     title: Node API for Cronofy
+    tech: JavaScript/Node.js
     description: I created the initial implementation that later became Cronofy's official Node SDK. Eventually this was handed over to the company's Github to manage and improve upon.
 
   - icon: fa fa-globe
     url: https://www.npmjs.com/package/chromeback
     title: Chromeback
+    tech: JavaScript/Node.js
     description: A package for automatically converting Chrome APIs to use node-style callbacks.
 
   - icon: fa fa-github
     url: https://github.com/warbrett/insecure-app
     title: Insecure Express
+    tech: JavaScript/Node.js, Express
     description: A small webserver with multiple OWASP Top 10 Vulnerabilities. Used to train new developers on the dangers of SQL Injection and other common web application vulnerabilities.
 
