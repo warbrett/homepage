@@ -13,7 +13,12 @@ source:
   - icon: fa fa-globe
     url: https://www.npmjs.com/package/cronofy
     title: Node API for Cronofy
-    description: I created the initial implementation that later became Cronofy's official Node SDK. Eventually this was handed over to their company's Github to manage and improve upon.
+    description: I created the initial implementation that later became Cronofy's official Node SDK. Eventually this was handed over to the company's Github to manage and improve upon.
+
+  - icon: fa fa-globe
+    url: https://www.npmjs.com/package/chromeback
+    title: Chromeback
+    description: A package for automatically converting Chrome APIs to use node-style callbacks.
 
   - icon: fa fa-github
     url: https://github.com/warbrett/insecure-app
