@@ -17,13 +17,13 @@ theme = "hugo-sustain"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
-  custom_js  = []
+  custom_js = []
 
 [params.social]
-  Github        = "warbrett"
-  Email         = "brett@spindevelopment.com"
-  Twitter       = "brett_warner"
-  LinkedIn      = "warbrett"
+  Github = "warbrett"
+  Email = "brett@spindevelopment.com"
+  Twitter = "brett_warner"
+  LinkedIn = "warbrett"
 
 ## Main Menu
 [[menu.main]]
