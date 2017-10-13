@@ -8,10 +8,10 @@
           <h3>{{ .Site.Data.talks.name }}</h3>
           <div class="panel panel-default">
             <div class="panel-body">
-              {{ range Site.Data.talks.source }}
+              {{ range .Site.Data.talks.source }}
               <div class="talk">
                 <i class="{{ .icon }}"></i>&nbsp;&nbsp;
-                <strong><a href="{{ .url }}">{{ $el.title }}</a></strong>&nbsp;-&nbsp;{{ .description }}
+                <strong><a href="{{ .url }}">{{ .title }}</a></strong>&nbsp;-&nbsp;{{ .description }}
               </div>
               {{ end }}
             </div>
