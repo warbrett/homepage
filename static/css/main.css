@@ -119,11 +119,18 @@ a {
   line-height: 30px;
   font-size: 18px;
 }
+.projects {
+  padding-top: 10px;
+  text-align: left;
+}
 .project {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding: 15px 25px;
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.05);
+  transition: all .3s ease;
 }
 .project-tech {
   font-size: 12px;
@@ -144,12 +151,18 @@ a {
 .panel-default h4 a:hover, h5 a:hover {
   color: #267723;
 }
+.page {
+  padding-bottom: 35px;
+}
 .panel{
   border-style: none;
 }
 .panel-body {
-  padding-top: -10px;
+  padding-top: 10px;
   text-align: left;
+}
+.social ul {
+  padding: 0;
 }
 .social-links {
   display: block;
