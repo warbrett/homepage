@@ -3,5 +3,6 @@ source:
   - icon: fa fa-globe
     url: https://warbrett.github.io/node-addon-talk/#/
     title: Crossing the Language Barrier With Node Native Addons
-    description: Slides from my introduction to Node Native Addons talk given at PDXnode
+    description: Originally given at PDXnode, this slide deck is an introduction to Node Native Addons. The journey starts from the basics of what is node-gyp and why does it seem to cause so many problems for new developers and by the end walks through how to write, build, and publish your first native addon in C++.
+    tech: C++, JavaScript/Node.js
 
