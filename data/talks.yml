@@ -1,6 +1,12 @@
 name: Talks
 source:
   - icon: fa fa-globe
+    url: https://warbrett.github.io/pwa-lightning-talk/#/
+    title: A Lightning Fast Introduction to Progressive Web Applications
+    description: Originally given at Williamette Valley Software Engineering Meetup, this slide deck is an introduction and history of the web leading up through Progressive Web Applications and how to create them.
+    tech: HTML, JS
+
+  - icon: fa fa-globe
     url: https://warbrett.github.io/node-addon-talk/#/
     title: Crossing the Language Barrier With Node Native Addons
     description: Originally given at PDXnode, this slide deck is an introduction to Node Native Addons. The journey starts from the basics of what is node-gyp and why does it seem to cause so many problems for new developers and by the end walks through how to write, build, and publish your first native addon in C++.
